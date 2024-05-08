@@ -23,6 +23,7 @@ public class Python {
         System.out.print("Enter name: ");
         name = in.next();
         System.out.println("Your Name is "+Move(name));
+        System.out.println("Testing");
         
     }
     public static String Move(String name)
