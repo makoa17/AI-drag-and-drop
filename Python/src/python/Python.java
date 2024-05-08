@@ -5,6 +5,8 @@
  */
 package python;
 
+import java.util.Scanner;
+
 /**
  *
  * @author makoal
@@ -14,8 +16,17 @@ public class Python {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        System.out.println("Test");
-    }
     
+    public static void main(String[] args) {
+        String name;
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter name: ");
+        name = in.next();
+        System.out.println("Your Name is "+Move(name));
+        
+    }
+    public static String Move(String name)
+    {
+        return name;
+    }
 }
